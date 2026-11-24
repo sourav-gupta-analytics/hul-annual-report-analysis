@@ -1,1 +1,7 @@
 financial_year,reporting_basis,report_title,source_url,page_number,statement_or_note,metric,reported_unit,currency,notes
+2025,Standalone continuing restated,FY26 annual report,https://www.hul.co.in/files/annual-report-2025-26-single-page.pdf,90,Financial Review,Financial and segment figures,crore,INR,FY25 comparative after Ice Cream demerger
+2026,Standalone continuing,FY26 annual report,https://www.hul.co.in/files/annual-report-2025-26-single-page.pdf,90,Financial Review,Financial and segment figures,crore,INR,Latest complete financial year
+2025,Standalone total operations,FY26 annual report,https://www.hul.co.in/files/annual-report-2025-26-single-page.pdf,90,Financial Review,Discontinued and total PAT,crore,INR,Excluded from continuing KPIs
+2026,Standalone total operations,FY26 annual report,https://www.hul.co.in/files/annual-report-2025-26-single-page.pdf,90,Financial Review,Discontinued and total PAT,crore,INR,Excluded from continuing KPIs
+2024,Standalone originally reported,FY25 annual report,https://www.hul.co.in/files/hul-integrated-annual-report-2024-25.pdf,,Results,Turnover EBITDA PAT,crore,INR,Historical context only
+2025,Standalone originally reported,FY25 annual report,https://www.hul.co.in/files/hul-integrated-annual-report-2024-25.pdf,,Results,Turnover EBITDA PAT,crore,INR,Historical context only
