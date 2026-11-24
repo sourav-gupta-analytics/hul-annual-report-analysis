@@ -1,70 +1,50 @@
-# Hindustan Unilever | Financial & Business Performance Analysis
+# HUL | Financial Performance Intelligence
 
-**Financial analytics case study · Excel · Power BI**
+**Financial analytics · Excel · Power BI-ready model · FMCG**
 
-> **Status: In progress.** This repository currently documents the analytical scope and planned deliverables. The workbook, dashboard and verified findings have not yet been published.
+![Actual-data financial summary (static preview, not Power BI)](dashboard/financial-summary.svg)
 
-## Executive brief
+> Status: verified source data, KPI analysis, static summary and executive case study published. Power BI Desktop implementation and native PBIX export are pending. Excel workbook created locally; binary upload pending.
 
-This independent academic portfolio project examines Hindustan Unilever Limited (HUL) to understand how changes in revenue, segment performance, profitability and operating costs affect business performance.
+## Business problem
 
-**Decision audience:** Financial planning, business intelligence and strategy teams.
+Assess whether growth is translating into operating profitability, identify segment growth contributions, and distinguish recurring operations from tax and exceptional effects.
 
-## Business questions
+## Key findings
 
-- Which business segments contribute most to revenue, and how is the mix changing?
-- Is revenue growth accompanied by improved operating profitability?
-- Which cost categories are most relevant to margin movements?
-- What limitations should management consider before comparing reporting periods?
+- Turnover grew **3.99%** to INR 61,315 crore.
+- EBITDA rose **2.26%** to INR 14,464 crore, while EBITDA / operating revenue fell from 23.70% to 23.34%.
+- Operating costs increased **4.35%**, ahead of operating revenue growth of 3.85%.
+- Home Care accounted for **30.51%** of the INR 2,350 crore turnover increase; Beauty & Wellbeing led segment turnover growth (4.98%).
+- Continuing PAT increased 3.45%, while pre-exceptional PBT grew only 0.18%; lower tax expense contributed materially to the PAT increase.
 
-## Data source and scope
+See [executive case study](docs/executive-case-study.md) for recommendations, limitations and PAT bridge.
 
-Primary source: [Hindustan Unilever — official website](https://www.hul.co.in/), investor relations and published annual reports.
+## Deliverables
 
-Before analysis, record the selected financial years, reporting basis (standalone or consolidated), currency and units, report URL, statement or note, and page number. Do not mix reporting bases or segment definitions without reconciliation. Use comparable periods and document restatements.
-
-## KPI definitions
-
-| KPI | Definition |
+| File | Purpose |
 | --- | --- |
-| Revenue growth | (Current period revenue / Prior period revenue - 1) × 100 |
-| Segment revenue share | Segment external revenue / Total comparable external revenue × 100 |
-| Operating margin | Defined operating profit / Revenue × 100 |
-| Net profit margin | Profit after tax / Revenue × 100 |
-| Cost ratio | Selected operating expense / Revenue × 100 |
+| [Financial.csv](data/Financial.csv) | Source-linked comparable P&L |
+| [Segments.csv](data/Segments.csv) | Source-linked segment data |
+| [Historical.csv](data/Historical.csv) | FY24–25 originally reported historical context only |
+| [Year.csv](data/Year.csv) | Power BI year dimension |
+| [Source register](docs/source-register.csv) | Provenance and reporting basis |
+| [DAX measures](dashboard/measures.dax) | Power BI model calculations |
+| [Theme](dashboard/theme.json) | Power BI styling |
+| [Build guide](dashboard/docs/build-guide.md) | Reproduce three report pages and validate |
+| [Static preview](dashboard/financial-summary.svg) | Verified-data summary; not a Power BI screenshot |
+| [Executive case study](docs/executive-case-study.md) | Findings and business recommendations |
 
-Use a consistent, explicitly documented operating profit definition. Report percentage-point changes for margins and avoid calculating growth when the prior denominator is zero or otherwise unsuitable.
+## Methodology and quality
 
-## Planned workflow
+Use FY25 restated and FY26 standalone continuing operations from the FY26 report (printed p.90). Ice Cream was demerged effective 1 December 2025; the FY25 originally reported figures are retained separately, not mixed with restated numbers. All amounts are INR crore; costs are positive expense magnitudes. Margins use operating revenue; segment shares use turnover. Eighteen arithmetic reconciliation checks (nine per year) yield zero variance. This is not an independent audit.
 
-1. Extract annual-report financial statements and segment notes into Excel.
-2. Standardize units and categories; reconcile totals against the source.
-3. Calculate year-over-year changes, margins and segment contributions.
-4. Build a Power BI model and dashboard for financial performance, segment performance and cost drivers.
-5. Validate all visuals against the workbook and write an executive summary with evidence-based recommendations.
+## Official sources
 
-## Repository guide
+- [FY26 annual report](https://www.hul.co.in/files/annual-report-2025-26-single-page.pdf) — Financial Review, printed p.90.
+- [FY25 annual report](https://www.hul.co.in/files/hul-integrated-annual-report-2024-25.pdf) — Results, historical context.
 
-| Location | Purpose | Status |
-| --- | --- | --- |
-| [excel/](excel/) | Source extraction, reconciliation and KPI workbook | Pending workbook |
-| [dashboard/](dashboard/) | Power BI report and visual previews | Pending dashboard |
-| [dashboard/docs/](dashboard/docs/) | Dashboard design and validation | Pending implementation |
-| [docs/source-register.csv](docs/source-register.csv) | Source traceability template | Template |
-| [docs/analysis-plan.md](docs/analysis-plan.md) | Business questions, deliverables and acceptance criteria | Available |
+## Reproduce
+Download the CSVs, import into Excel or Power BI Desktop, and follow the build guide. Add the native PBIX and exported screenshots after validation. Aggregate annual data cannot establish causal cost drivers or reliable forecasts.
 
-## Findings and recommendations
-
-Not yet available. Findings will be added only after calculations are reconciled against the published reports. No business outcomes, financial figures or dashboard completion are claimed at this stage.
-
-## Limitations
-
-Annual-report figures are aggregated and may not reveal product-level, geographic or customer-level drivers. Segment changes, exceptional items and accounting policies can affect comparability. Observed associations do not establish causality.
-
-## Author
-
-Sourav Gupta — MBA Business Analytics, Lovely Professional University.
-
-[GitHub portfolio](https://github.com/sourav-gupta-analytics) · [LinkedIn](https://www.linkedin.com/in/souravguptaanalyst/)
-
-Independent educational project; not affiliated with HUL and not investment advice.
+Independent AI-assisted educational portfolio project; not affiliated with HUL. Author: Sourav Gupta (MBA Business Analytics). [LinkedIn](https://www.linkedin.com/in/souravguptaanalyst/).
