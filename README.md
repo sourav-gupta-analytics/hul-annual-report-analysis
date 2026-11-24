@@ -1,10 +1,10 @@
 # HUL | Financial Performance Intelligence
 
-**Financial analytics · Excel · Power BI-ready model · FMCG**
+**Financial analytics · Excel · Power BI Desktop · FMCG**
 
 ![Actual-data financial summary (static preview, not Power BI)](dashboard/financial-summary.svg)
 
-> Status: verified source data, KPI analysis, static summary and executive case study published. Power BI Desktop implementation and native PBIX export are pending. Excel workbook created locally; binary upload pending.
+> Status: three-page Power BI Desktop report built and visually checked using the participant's FY26 Desktop screenshots. Exact headline values, year slicer and selected segment/profit bridge outputs matched the prepared data. Editable project and cropped screenshots are prepared for publication; repository upload and native PBIX export are pending. Excel workbook created locally; binary upload pending.
 
 ## Business problem
 
@@ -45,6 +45,6 @@ Use FY25 restated and FY26 standalone continuing operations from the FY26 report
 - [FY25 annual report](https://www.hul.co.in/files/hul-integrated-annual-report-2024-25.pdf) — Results, historical context.
 
 ## Reproduce
-Download the CSVs, import into Excel or Power BI Desktop, and follow the build guide. Add the native PBIX and exported screenshots after validation. Aggregate annual data cannot establish causal cost drivers or reliable forecasts.
+Download the CSVs and follow the build guide for manual reproduction. The separate editable project uses embedded data, 28 measures, a year dimension and a disconnected profit bridge. Its refined three-page layout has been opened successfully in Desktop. FY25 growth is intentionally blank because no comparable FY24 is loaded. The segment scorecard may require scrolling. Project files and screenshot uploads are pending. Aggregate annual data cannot establish causal cost drivers or reliable forecasts.
 
 Independent AI-assisted educational portfolio project; not affiliated with HUL. Author: Sourav Gupta (MBA Business Analytics). [LinkedIn](https://www.linkedin.com/in/souravguptaanalyst/).
