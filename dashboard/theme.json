@@ -1,0 +1,13 @@
+{
+  "name": "HUL Intelligence",
+  "dataColors": [
+    "#168B92",
+    "#102A43",
+    "#38BDF8",
+    "#64748B",
+    "#E6A23C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#102A43",
+  "tableAccent": "#168B92"
+}
