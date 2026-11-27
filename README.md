@@ -1,26 +1,21 @@
-# HUL | Financial Performance Intelligence
+# Hindustan Unilever | Annual Report Analysis
 
-**Financial analytics · Excel · Power BI Desktop · FMCG**
+**Financial analytics · Excel · Power BI Desktop · FY25 restated vs FY26**
 
-![Power BI Desktop executive overview — FY26](dashboard/01-executive-overview.png)
+How much of Hindustan Unilever's turnover growth translated into operating profitability? This case study compares standalone continuing operations after the Ice Cream demerger. The editable three-page Power BI Desktop report includes 28 measures and source-linked financial and segment data.
 
-[Download editable Power BI project](dashboard/HUL_PowerBI_Project.zip) · [All dashboard pages](dashboard/README.md) · [Desktop validation](dashboard/desktop-validation.md)
+[Download editable Power BI project](https://github.com/sourav-gupta-analytics/hul-annual-report-analysis/raw/refs/heads/main/dashboard/HUL_PowerBI_Project.zip) · [Dashboard gallery](dashboard/README.md) · [Desktop validation](dashboard/desktop-validation.md) · [Portfolio](https://souravgupta.vercel.app/#projects)
 
-> Status: three-page Power BI Desktop report built and visually checked using the participant's FY26 Desktop screenshots. Exact headline values, year slicer and selected segment/profit bridge outputs matched the prepared data. Editable PBIP/PBIR project and three actual screenshots are published. Native PBIX export and Power BI Service hosting are not included. Excel workbook created locally; binary upload pending.
-
-## Business problem
-
-Assess whether growth is translating into operating profitability, identify segment growth contributions, and distinguish recurring operations from tax and exceptional effects.
+![Actual Power BI Desktop report showing HUL FY26 turnover, EBITDA and continuing PAT](dashboard/01-executive-overview.png)
 
 ## Key findings
 
-- Turnover grew **3.99%** to INR 61,315 crore.
-- EBITDA rose **2.26%** to INR 14,464 crore, while EBITDA / operating revenue fell from 23.70% to 23.34%.
-- Operating costs increased **4.35%**, ahead of operating revenue growth of 3.85%.
-- Home Care accounted for **30.51%** of the INR 2,350 crore turnover increase; Beauty & Wellbeing led segment turnover growth (4.98%).
-- Continuing PAT increased 3.45%, while pre-exceptional PBT grew only 0.18%; lower tax expense contributed materially to the PAT increase.
+- **Growth outpaced profit expansion.** Turnover increased **3.99%** to INR 61,315 crore. EBITDA rose **2.26%** to INR 14,464 crore, and EBITDA margin moved from **23.70% to 23.34%**.
+- **Operating costs grew ahead of revenue.** Costs rose **4.35%** and operating revenue rose **3.85%**. The gap points to a follow-up on unit costs, product mix and distribution.
+- **Home Care made the largest contribution to growth.** It contributed **30.51%** of the INR 2,350 crore turnover increase. Beauty & Wellbeing led segment turnover growth at **4.98%**.
+- **Tax effects helped lift continuing PAT.** Continuing PAT increased **3.45%** and pre-exceptional PBT increased **0.18%**. The PAT bridge separates tax, exceptional and operating effects.
 
-See [executive case study](docs/executive-case-study.md) for recommendations, limitations and PAT bridge.
+The [executive case study](docs/executive-case-study.md) includes the full metric table, profit bridge, recommendations and limitations.
 
 ## Deliverables
 
@@ -49,6 +44,7 @@ Use FY25 restated and FY26 standalone continuing operations from the FY26 report
 - [FY25 annual report](https://www.hul.co.in/files/hul-integrated-annual-report-2024-25.pdf) — Results, historical context.
 
 ## Reproduce
-Download the CSVs and follow the build guide for manual reproduction. The separate editable project uses embedded data, 28 measures, a year dimension and a disconnected profit bridge. Its refined three-page layout has been opened successfully in Desktop. FY25 growth is intentionally blank because no comparable FY24 is loaded. The segment scorecard may require scrolling. Download the published project ZIP, extract it and open the PBIP in Power BI Desktop. Aggregate annual data cannot establish causal cost drivers or reliable forecasts.
+
+Download the CSVs and follow the build guide for manual reproduction. The separate editable project uses embedded data, 28 measures, a year dimension and a disconnected profit bridge. Selected values, slicer behavior and visuals were checked in Power BI Desktop on 25 November 2026. The published ZIP contains the editable PBIP/PBIR project and embedded data. The workbook is a local supporting artifact. Native PBIX export and Power BI Service hosting are outside the published deliverables. FY25 growth is intentionally blank because no comparable FY24 is loaded. The segment scorecard may require scrolling. Download the published project ZIP, extract it and open the PBIP in Power BI Desktop. Aggregate annual data cannot establish causal cost drivers or reliable forecasts.
 
 Independent AI-assisted educational portfolio project; not affiliated with HUL. Author: Sourav Gupta (MBA Business Analytics). [LinkedIn](https://www.linkedin.com/in/souravguptaanalyst/).
