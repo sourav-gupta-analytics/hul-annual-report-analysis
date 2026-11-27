@@ -1,6 +1,6 @@
 # Executive case study: HUL Financial Performance Intelligence
 
-**Scope:** FY25 restated vs FY26, standalone continuing operations, INR crore. Independent, AI-assisted educational project. Native Power BI dashboard remains pending.
+**Scope:** FY25 restated vs FY26, standalone continuing operations, INR crore. Independent, AI-assisted educational project. The [editable three-page Power BI Desktop project](../dashboard/README.md) and selected [Desktop validation](../dashboard/desktop-validation.md) are published.
 
 ## Decision question
 Is HUL's turnover growth translating into sustainable operating profitability, and which segments contribute most to growth?
